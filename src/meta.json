@@ -42,6 +42,7 @@
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 },
@@ -119,8 +120,7 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSCameraUsageDescription": ""
                         }
                     }
                 },
@@ -168,8 +168,7 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSCameraUsageDescription": ""
                         }
                     }
                 },
