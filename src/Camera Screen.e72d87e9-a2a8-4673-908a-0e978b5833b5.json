@@ -1,4 +1,5 @@
 {
+    "id": "e72d87e9-a2a8-4673-908a-0e978b5833b5",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -194,7 +195,6 @@
             "name": "Video1"
         }
     ],
-    "id": "e72d87e9-a2a8-4673-908a-0e978b5833b5",
     "thunkableVersion": 443,
     "name": "Camera Screen"
 }
