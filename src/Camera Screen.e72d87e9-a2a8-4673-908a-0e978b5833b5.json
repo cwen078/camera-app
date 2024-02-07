@@ -1,0 +1,200 @@
+{
+    "type": "Screen",
+    "translatedName": "Screen",
+    "reactType": "ViewWithProps",
+    "properties": {
+        "Height": "Fill container",
+        "Width": "Fill container",
+        "Layout": "column",
+        "BackgroundColor": "rgba(255, 224, 224, 1)",
+        "Justification": "center",
+        "Alignment": "center",
+        "Visible": true,
+        "style": {
+            "marginTop": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "shadowColor": "rgba(0, 0, 0, 0)",
+            "shadowOpacity": 0,
+            "scaledShadowOpacity": 0,
+            "shadowRadius": 0,
+            "shadowOffset": {
+                "width": 0,
+                "height": 0
+            },
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "display": "flex",
+            "backgroundColor": "rgba(255, 224, 224, 1)"
+        },
+        "ShowStatusBar": true,
+        "StatusBarStyle": "default",
+        "TranslucentStatusBar": false,
+        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "TabNavigationOptions": {
+            "tabBarVisible": true
+        },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
+        "ScreenOrientation": "portrait",
+        "DesignerHeight": 667,
+        "DesignerWidth": 375,
+        "ResponsiveWidth": 375,
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
+    },
+    "children": [
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Record",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 90,
+                "Width": 90,
+                "Visible": true,
+                "X": 246,
+                "Y": 348,
+                "RelativeX": 246,
+                "RelativeY": 348,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "57.2%",
+                    "top": "53.9430266556175%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "e72d87e9-a2a8-4673-908a-0e978b5833b5",
+                "position": "absolute",
+                "edgeOffsets": 348
+            },
+            "children": [],
+            "id": "8ea4b2d9-9505-483c-9c6d-92da96e59084",
+            "thunkableVersion": 443,
+            "name": "untimed"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Record 5 seconds",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 87,
+                "Width": 85,
+                "Visible": true,
+                "X": 41,
+                "Y": 352,
+                "RelativeX": 41,
+                "RelativeY": 352,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "12.666666666666666%",
+                    "top": "54.09295169309876%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "e72d87e9-a2a8-4673-908a-0e978b5833b5",
+                "position": "absolute",
+                "edgeOffsets": 352
+            },
+            "children": [],
+            "id": "994bc994-0348-47b5-9ad4-b1ac25a08cf1",
+            "thunkableVersion": 443,
+            "name": "5sec"
+        },
+        {
+            "type": "Video",
+            "label": "Video",
+            "translatedName": "Video",
+            "properties": {
+                "Play": false,
+                "Height": 203,
+                "Width": 293,
+                "Visible": true,
+                "X": 41,
+                "Y": 117,
+                "RelativeX": 41,
+                "RelativeY": 117,
+                "ResizeMode": "STRETCH",
+                "ParentId": "e72d87e9-a2a8-4673-908a-0e978b5833b5",
+                "position": "absolute",
+                "edgeOffsets": 117,
+                "style": {
+                    "position": "absolute",
+                    "left": "28.666666666666668%",
+                    "top": "11.84407796101949%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "33733cfa-6340-4bae-8cf7-7a250c0595b6",
+            "thunkableVersion": 443,
+            "name": "Video1"
+        }
+    ],
+    "id": "e72d87e9-a2a8-4673-908a-0e978b5833b5",
+    "thunkableVersion": 443,
+    "name": "Camera Screen"
+}
